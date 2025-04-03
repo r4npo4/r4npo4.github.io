@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Ranpo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/lain.png"
   bio              : "Security blog."
   location         : "Somewhere"
   email            :
