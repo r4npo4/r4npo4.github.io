@@ -2,7 +2,7 @@
 title: Privilege Escalation via SUID
 date: 2025-04-03
 categories:
-  - linux
+  - blog
 tags:
   - Privilege
   - Escalation
