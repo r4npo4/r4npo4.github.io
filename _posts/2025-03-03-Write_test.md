@@ -1,8 +1,13 @@
 ---
-title: "Privilege Escalation via SUID"
+title: Privilege Escalation via SUID
 date: 2025-04-03
-categories: [CyberSecurity]
-tags: [Privilege Escalation, Linux, SUID]
+categories:
+  - linux
+tags:
+  - Privilege
+  - Escalation
+  - Linux
+  - SUID
 ---
 
 Hello world

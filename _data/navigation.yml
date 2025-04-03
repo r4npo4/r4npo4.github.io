@@ -1,7 +1,13 @@
 # main links
 main:
   - title: "Category"
-    url: /categories/ 
+    children:
+      - title: "blog"
+        url: "/blog"
+      - title: "Linux"
+        url:  "/linux"
+      - title: "Windows"
+        url:  "/windows"
   # - title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
