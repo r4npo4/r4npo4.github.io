@@ -213,8 +213,6 @@ WARNING: terminal is not fully functional
 
 It is same to execute `systemctl status redis` as `sudo`. So, I was able to [root shell spawning](https://gtfobins.github.io/gtfobins/systemctl/#sudo) in `systemctl status`.
 
-![[Screenshot 2025-06-17 at 8.44.31 PM.png]]
-
 ```sh
 prudence@blackgate:/tmp$ sudo redis-status
 sudo redis-status
