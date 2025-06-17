@@ -151,7 +151,7 @@ c------------------------------6
 ## Privilege Escalation
 ### Information Gathering
 #### Privilges
-**sudo**
+###### sudo
 The result of the `sudo -l` command showed that I could execute `/usr/local/bin/redis-status` with `root` privileges. After further investigation, I discovered that this binary was not provided by Redis but was instead a custom binary created within the server.
 ```sh
 prudence@blackgate:~$ sudo -l
@@ -164,7 +164,7 @@ User prudence may run the following commands on blackgate:
     (root) NOPASSWD: /usr/local/bin/redis-status
 ```
 
-**Interesting file**
+###### Interesting file
 There was a `notes.txt` file inside the `/home/prudence` directory, and its content contained the output of the `redis server` execution process.
 ```sh
 prudence@blackgate:~$ cat notes.txt
