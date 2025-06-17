@@ -175,7 +175,7 @@ cat notes.txt
 [✔] Allow remote connections to the redis server 
 ```
 
-### Interesting program
+### Interesting Binary
 The result of the `ls -al` command showed that the user `prudence` did not have permission to directly modify `/usr/local/bin/redis-status`.
 ```sh
 prudence@blackgate:/tmp$ ls -al /usr/local/bin/redis-status
