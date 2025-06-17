@@ -11,9 +11,7 @@ tags:
 ---
 
 ## Reconnaissance
-
 ### Port Scan
-
 I performed a port scan and found that ports `22` and `6379` were open.
 ```sh
 $ sudo nmap -sS -sV -sC -Pn -p- -min-rate=10000 192.168.149.176
@@ -65,7 +63,6 @@ config_file:
 ---
 
 ## Initial Access
-
 ### Redis RCE
 Using [Redis-rce](https://github.com/Ridter/redis-rce?tab=readme-ov-file), I uploaded the `exp_lin.so` module and performed Remote Code Execution (RCE). Although the command output was slightly delayed, I was able to confirm that the RCE was successfully executed.
 ```sh
@@ -152,7 +149,6 @@ c------------------------------6
 ---
 
 ## Privilege Escalation
-
 ### Information Gathering
 #### Privilges
 **sudo**
@@ -261,5 +257,5 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 
 # cat /root/proof.txt
 cat /root/proof.txt
-7eb5b349b994af56a30dc4e5f0fb96c
+7-----------------------------c
 ```
