@@ -183,7 +183,7 @@ ls -al /usr/local/bin/redis-status
 -rwxr-xr-x 1 root root 17056 Dec  6  2021 /usr/local/bin/redis-status
 ```
 
-I extracted strings in binary  with `strings` command. Therefore, I obtained the value `ClimbingParrotKickingDonkey321`, which is presumed to be the `Authorization Key` value and observed that the command `/usr/bin/systemctl status redis` was also executed.
+I extracted strings in the binary  with `strings` command. Therefore, I obtained the value `ClimbingParrotKickingDonkey321`, which is presumed to be the `Authorization Key` value and observed that the command `/usr/bin/systemctl status redis` was also executed.
 ```sh
 prudence@blackgate:/tmp$ strings /usr/local/bin/redis-status
 strings /usr/local/bin/redis-status
