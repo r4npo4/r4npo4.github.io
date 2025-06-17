@@ -2,7 +2,7 @@
 title: PG_BlackGate
 date: 2025-04-03
 categories:
-  - linux
+  - Wargame
 tags:
   - Privilege
   - Escalation
