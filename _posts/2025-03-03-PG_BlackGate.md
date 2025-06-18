@@ -60,7 +60,7 @@ executable:/usr/local/bin/redis-server
 config_file:
 ```
 
----
+
 
 ## Initial Access
 ### Redis RCE
@@ -146,7 +146,7 @@ cat /home/prudence/local.txt
 c------------------------------6
 ```
 
----
+
 
 ## Privilege Escalation
 ### Information Gathering
